@@ -11,9 +11,9 @@ import CoreLocation
 
 
 /**
-    ビーコンの受信を受けてNSNotificationをPostするクラス
+    ビーコンの受信を受けてNSNotificationをPostするシングルトンクラス
 
-    シングルトンなのでsharedInstance経由でアクセスする
+    sharedInstance経由でアクセスする
 */
 class BeaconManager: NSObject, CLLocationManagerDelegate {
     
