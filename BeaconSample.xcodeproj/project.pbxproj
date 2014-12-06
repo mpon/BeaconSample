@@ -13,6 +13,7 @@
 		538762011A329DEE00705254 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538762001A329DEE00705254 /* Images.xcassets */; };
 		538762041A329DEE00705254 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 538762021A329DEE00705254 /* LaunchScreen.xib */; };
 		538762101A329DEE00705254 /* BeaconSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5387620F1A329DEE00705254 /* BeaconSampleTests.swift */; };
+		5387621A1A329E7600705254 /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538762191A329E7600705254 /* BeaconManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		538762091A329DEE00705254 /* BeaconSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5387620E1A329DEE00705254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5387620F1A329DEE00705254 /* BeaconSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconSampleTests.swift; sourceTree = "<group>"; };
+		538762191A329E7600705254 /* BeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				538761F91A329DEE00705254 /* AppDelegate.swift */,
+				538762191A329E7600705254 /* BeaconManager.swift */,
 				538761FB1A329DEE00705254 /* ViewController.swift */,
 				538761FD1A329DEE00705254 /* Main.storyboard */,
 				538762001A329DEE00705254 /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5387621A1A329E7600705254 /* BeaconManager.swift in Sources */,
 				538761FC1A329DEE00705254 /* ViewController.swift in Sources */,
 				538761FA1A329DEE00705254 /* AppDelegate.swift in Sources */,
 			);
