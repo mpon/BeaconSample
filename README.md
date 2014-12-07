@@ -2,10 +2,10 @@ BeaconSample
 ==========================
 
 
-Getting Start
+Getting Started
 --------------------------
 
-clone repository
-open BeaconSample.xcodeproj
-
+- clone repository
+- open BeaconSample.xcodeproj
+- replace uuid to your iBeacon in `BeaconManager.swift`
 
